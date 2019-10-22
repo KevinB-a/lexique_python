@@ -115,6 +115,27 @@ n
 
 =======
 
+***sofiane,module re***
+intro:
+  # pour rechercher un mot dans une chaine de caractere 
+  la class str est limité avec deux methodes "find" et replace 
+  pour traité certain rechercher
+  # le module re nous offre des methodes bien complete pour traité ce genre 
+  de probleme
+  exemple de recherche un numero de tel valide dans une chaine:
+
+import re
+chaine = ""
+expression = r"^0[0-9]([ .-]?[0-9]{2}){4}$"
+while re.search(expression, chaine) is None:
+    chaine = input("Saisissez un numéro de téléphone (valide) :") 
+
+la methode sub pour remplacé une expression reguliére dans une chaine
+exemple:
+ re.sub(r"-", r"_", "bruno - thomas")
+affiche bruno - thomas
+
+
 #raise and assert exceptions
 
 il existe différentes syntaxes pour releverles exception 
