@@ -1,0 +1,2 @@
+fonction print() permet l'affichage d'une chaine de caracteres, d'un integer ou encore d'un float
+exemple print("hello world") print(123)
