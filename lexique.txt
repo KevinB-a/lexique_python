@@ -1,3 +1,4 @@
+
 #raise and assert exceptions
 
 il existe différentes syntaxes pour releverles exception 
@@ -45,4 +46,45 @@ si le test renvoie true, il execute sinon une exception est levée (AssertionErr
 
 ## raise 
  raise TypeDe l'exception ("message à afficher")
+
+
+# Gestion d'erreur et d'exception
+## L'instruction try et except
+L'instruction "try" permet d'exécuter une clause (flot d'instructions placé entre les mots clefs try et except), 
+exécution qui s'interrompt et saute à l'instruction "except", en cas exception.
+En bref:
+- Si aucune exception n'intervient pendant l'exécution du "try", celle-ci se déroule jusqu'à sa complétion 
+et l'instruction except est ignorée.
+- Si une exception se produit lors de l'exécution du "try", celle-ci s'interrompt immédiatement et saute à
+l'instruction "except", qui exécutera la clause "except" ou traitement de l'erreur.
+
+NB: Plusieurs traitements d'erreurs (plusieurs "except") peuvent être pris en compte
+NBii : Si une seule instrucion "except" est implémentée, celle-ci traitera indifféremment toutes les erreurs
+qui se seront produites pendant l'exécution du "try"
+
+Exemples:
+ try:
+    division = 1492/0
+    print("result : {}".format(division))
+ except:
+    print("x:0 is beyound Python possibility")
+
+ try:
+    <execute clause>
+ except <exception #1>:
+    <execute type#1 exception clause>
+ except <exception #2>:
+    <execute type#2 exception clause>
+    
+Un tuple est un ensemble d’éléments comparable aux listes mais qui, une fois déclaré, ne peut plus être modifié. Exemple d'une date de naissance ne peux être modifiée.
+Attention le tuple doit etre séparé par des points virgules.
+
+c = (9,)
+print(type(c))
+
+d = ("one","two","three","viva",) 
+print(type(d))
+
+Les tuples sont des séquences non modifiables donc il n’est pas possible d’utiliser les méthodes remove()  ou append() par exemple, les [] sont prohibés.
+ 
 
