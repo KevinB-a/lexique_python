@@ -1,0 +1,38 @@
+# PRESENTATION DE 3 METHODES POUR MODIFIER DES CHAINES DE CARACTERES
+
+Ces méthodes s'appliquent uniquement sur des objets de type STRING soit des chaines de caractères
+et permet de les modifier.
+
+## Méthode Capitalize()
+
+Celle-ci permet de modifier une chaine de caractères en mettant la première lettre en majuscule.
+Ainsi un exemple:
+
+message= "hello world"
+print(message.capitalize())
+
+>>Hello world
+
+## Méthode Upper()
+
+Cette méthode permet de transformer une chaîne de caractères de type string en majuscules.
+
+Exemple: 
+
+message= "hello world"
+print(message.upper())
+
+>> HELLO WORLD
+
+## Méthode Lower()
+ 
+Transforme une chaîne de caractères en minuscules
+
+Exemple: 
+
+message= "hello world"
+print(message.lower())     
+
+>> hello world
+
+
