@@ -1,0 +1,9 @@
+## While Qu'est ce que c'est ?
+#while en anglais veut dire "tant que" en français . C'est une expression qui signifie "aussi longtemps que" . Le bloc while entre accolades {} s’exécutera tant que sa condition d'exécution est vraie. Soit "true" .
+#Elle est construite en deux parties.
+#Une condition d’exécution () qui est le déclencheur de la boucle.
+#Un bloc {} d'actions programmées à réaliser en boucle.
+
+i = random.randint(1, 10)
+j = random.randint(1, 10)
+#ci-dessus 2 variables
