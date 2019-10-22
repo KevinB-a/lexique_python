@@ -1,105 +1,4 @@
-fally
-## While Qu'est ce que c'est ?
-#while en anglais veut dire "tant que" en français . C'est une expression qui signifie "aussi longtemps que" . Le bloc while entre accolades {} s’exécutera tant que sa condition d'exécution est vraie. Soit "true" .
-#Elle est construite en deux parties.
-
-i = random.randint(1, 10)
-j = random.randint(1, 10)
-                    #ci-dessus 2 variables
-
-while i != j :      #Une condition d’exécution (ci contre)
-
-#Un bloc {} d'actions programmées à réaliser en boucle.(ci dessous)
-
-  j= random.randint(1, 10)
-  print(j)
-
-#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
-
-if i == j
-  print(bravo)
-  print(j)          #voila ma condition de sorti de la boucle.
-=======
-kamel
-###la boucle range
-
-n = 15
-
-for i in range (i, i+1, 1)
-if i%2 == 0
-i += 0
-print(i)
-
-
-On crée une liste qui contient plusieurs élément (1, 2, ...)
-On nomme i
-la fonction range va créer une liste et inspecter les éléments de 'liste'
-=======
-nicolas
-len()
-
-La fonction "len()", indique le nombre d'éléments que contient
-une chaine de caractère ou une liste .
-
-adep = [5, 6, 8, 4, 9, 7, 8, 1]
-print(len(adep))
-
-display "8" after print
-=======
- abdel
-def nom_fonction(liste de paramètres):
-      bloc d'instructions
-
-Lorsqu’une tâche doit être réalisée plusieurs fois par un programme avec seulement des paramètres différents,
-on peut l’isoler au sein d’une fonction. Cette approche est également intéressante si la personne qui définit 
-la fonction est différente de celle qui l’utilise. Par exemple, nous avons déjà utilisé la fonction print() qui
-avait été définie par quelqu’un d’autre.
-
-exemple:
-
-def Age(18):
-    print(Age)
-=======
- Emira
-#PRESENTATION DE 3 METHODES POUR MODIFIER DES CHAINES DE CARACTERES
-
-Ces méthodes s'appliquent uniquement sur des objets de type STRING soit des chaines de caractères
-et permet de les modifier.
-
-##Méthode Capitalize()
-
-Celle-ci permet de modifier une chaine de caractères en mettant la première lettre en majuscule.
-Ainsi un exemple:
-
-message= "hello world"
-print(message.capitalize())
-
->>Hello world
-
-##Méthode Upper()
-
-Cette méthode permet de transformer une chaîne de caractères de type string en majuscules.
-
-Exemple: 
-
-message= "hello world"
-print(message.upper())
-
->> HELLO WORLD
-
-##Méthode Lower()
- 
-Transforme une chaîne de caractères en minuscules
-
-Exemple: 
-
-message= "hello world"
-print(message.lower())     
-
->> hello world
-
-=======
- mahyadine
+Mahyadine
 ## Mahyadine ##
 La boucle for
 
@@ -107,7 +6,7 @@ La boucle for permet de faire des repetitons sur un élément, comme une chaine 
 
 v = "Bonjour vous allez bien"
 for = lettre in v:
-...    print ("lettre")	
+...    print ("lettre")
 ...
 B
 o
@@ -133,39 +32,79 @@ i
 e
 n
 
+=========
+Emira
+#PRESENTATION DE 3 METHODES POUR MODIFIER DES CHAINES DE CARACTERES
 
+Ces méthodes s'appliquent uniquement sur des objets de type STRING soit des chaines de caractères
+et permet de les modifier.
 
-=======
+##Méthode Capitalize()
 
-***sofiane,module re***
-intro:
-  # pour rechercher un mot dans une chaine de caractere 
-  la class str est limité avec deux methodes "find" et replace 
-  pour traité certain rechercher
-  # le module re nous offre des methodes bien complete pour traité ce genre 
-  de probleme
-  exemple de recherche un numero de tel valide dans une chaine:
+Celle-ci permet de modifier une chaine de caractères en mettant la première lettre en majuscule.
+Ainsi un exemple:
 
-import re
-chaine = ""
-expression = r"^0[0-9]([ .-]?[0-9]{2}){4}$"
-while re.search(expression, chaine) is None:
-    chaine = input("Saisissez un numéro de téléphone (valide) :") 
+message= "hello world"
+print(message.capitalize())
 
-la methode sub pour remplacé une expression reguliére dans une chaine
+>>Hello world
+
+##Méthode Upper()
+
+Cette méthode permet de transformer une chaîne de caractères de type string en majuscules.
+
+Exemple:
+
+message= "hello world"
+print(message.upper())
+
+>> HELLO WORLD
+
+##Méthode Lower()
+
+Transforme une chaîne de caractères en minuscules
+
+Exemple:
+
+message= "hello world"
+print(message.lower())
+
+>> hello world
+================
+Abdel
+def nom_fonction(liste de paramètres):
+     bloc d'instructions
+
+Lorsqu’une tâche doit être réalisée plusieurs fois par un programme avec seulement des paramètres différents,
+on peut l’isoler au sein d’une fonction. Cette approche est également intéressante si la personne qui définit
+la fonction est différente de celle qui l’utilise. Par exemple, nous avons déjà utilisé la fonction print() qui
+avait été définie par quelqu’un d’autre.
+
 exemple:
- re.sub(r"-", r"_", "bruno - thomas")
-affiche bruno - thomas
 
+def Age(18):
+   print(Age)
+=====================
+Nicolas
+len()
 
+La fonction "len()", indique le nombre d'éléments que contient
+une chaine de caractère ou une liste .
+
+adep = [5, 6, 8, 4, 9, 7, 8, 1]
+print(len(adep))
+
+display "8" after print
+=======================
+Nour
 #raise and assert exceptions
 
-il existe différentes syntaxes pour releverles exception 
+il existe différentes syntaxes pour releverles exception
 
 ## Try/except
 
 try: le bloc à essayer
-except type_erreur as exception à retourner: 
+except type_erreur as exception à retourner:
 print ("message d'erreur")
 
 ## try/ except/ except/ else
@@ -179,7 +118,57 @@ except ZeroDivisionError:
     print("message erreur 3")
 else:
     print( resultat)
+=========================
+kamel
+###la boucle range
 
+n = 15
+
+for i in range (i, i+1, 1)
+if i%2 == 0
+i += 0
+print(i)
+
+
+On crée une liste qui contient plusieurs élément (1, 2, ...)
+On nomme i
+la fonction range va créer une liste et inspecter les éléments de 'liste'
+================
+
+
+if i == j
+  print(bravo)
+  print(j)          #voila ma condition de sorti de la boucle.
+=======
+
+***sofiane,module re***
+intro:
+  # pour rechercher un mot dans une chaine de caractere
+  la class str est limité avec deux methodes "find" et replace
+  pour traité certain rechercher
+  # le module re nous offre des methodes bien complete pour traité ce genre
+  de probleme
+  exemple de recherche un numero de tel valide dans une chaine:
+
+import re
+chaine = ""
+expression = r"^0[0-9]([ .-]?[0-9]{2}){4}$"
+while re.search(expression, chaine) is None:
+    chaine = input("Saisissez un numéro de téléphone (valide) :")
+
+la methode sub pour remplacé une expression reguliére dans une chaine
+exemple:
+ re.sub(r"-", r"_", "bruno - thomas")
+affiche bruno - thomas
+==================
+Kevin
+La fonction print() permet l'affichage de chaine de caractères, des integers, float ect ..
+exemple: print("hello world") affiche hello world  ou encore print(123) affiche 123
+La fonction int() permet de convertir une chaine de caractere en nombre si cette manipulation est possible
+exemple : print(int("123")) affiche 123 par contre print(int("abc")) est une erreur
+
+
+stephane
 ## try/except/finally
 
 try:
@@ -199,20 +188,20 @@ Ne rien faire dans le cas de l'exception
 
 ## assert
 
-assert test 
+assert test
 
 si le test renvoie true, il execute sinon une exception est levée (AssertionError)
 
-## raise 
+## raise
  raise TypeDe l'exception ("message à afficher")
 
 
 # Gestion d'erreur et d'exception
 ## L'instruction try et except
-L'instruction "try" permet d'exécuter une clause (flot d'instructions placé entre les mots clefs try et except), 
+L'instruction "try" permet d'exécuter une clause (flot d'instructions placé entre les mots clefs try et except),
 exécution qui s'interrompt et saute à l'instruction "except", en cas exception.
 En bref:
-- Si aucune exception n'intervient pendant l'exécution du "try", celle-ci se déroule jusqu'à sa complétion 
+- Si aucune exception n'intervient pendant l'exécution du "try", celle-ci se déroule jusqu'à sa complétion
 et l'instruction except est ignorée.
 - Si une exception se produit lors de l'exécution du "try", celle-ci s'interrompt immédiatement et saute à
 l'instruction "except", qui exécutera la clause "except" ou traitement de l'erreur.
@@ -234,16 +223,33 @@ Exemples:
     <execute type#1 exception clause>
  except <exception #2>:
     <execute type#2 exception clause>
-    
+================
+farid
 Un tuple est un ensemble d’éléments comparable aux listes mais qui, une fois déclaré, ne peut plus être modifié. Exemple d'une date de naissance ne peux être modifiée.
 Attention le tuple doit etre séparé par des points virgules.
 
 c = (9,)
 print(type(c))
 
-d = ("one","two","three","viva",) 
+d = ("one","two","three","viva",)
 print(type(d))
 
 Les tuples sont des séquences non modifiables donc il n’est pas possible d’utiliser les méthodes remove()  ou append() par exemple, les [] sont prohibés.
-developpement
-developpement
+===============
+fally
+## While Qu'est ce que c'est ?
+#while en anglais veut dire "tant que" en français . C'est une expression qui signifie "aussi longtemps que" . Le bloc while entre accolades {} s’exécutera tant que sa condition d'exécution est vraie. Soit "true" .
+#Elle est construite en deux parties.
+
+i = random.randint(1, 10)
+j = random.randint(1, 10)
+                    #ci-dessus 2 variables
+
+while i != j :      #Une condition d’exécution (ci contre)
+
+#Un bloc {} d'actions programmées à réaliser en boucle.(ci dessous)
+
+  j= random.randint(1, 10)
+  print(j)
+
+#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
