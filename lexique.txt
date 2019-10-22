@@ -1,0 +1,12 @@
+def nom_fonction(liste de paramètres):
+      bloc d'instructions
+
+Lorsqu’une tâche doit être réalisée plusieurs fois par un programme avec seulement des paramètres différents,
+on peut l’isoler au sein d’une fonction. Cette approche est également intéressante si la personne qui définit 
+la fonction est différente de celle qui l’utilise. Par exemple, nous avons déjà utilisé la fonction print() qui
+avait été définie par quelqu’un d’autre.
+
+exemple:
+
+def Age(18):
+    print(Age)
