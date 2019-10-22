@@ -1,3 +1,25 @@
+fally
+## While Qu'est ce que c'est ?
+#while en anglais veut dire "tant que" en français . C'est une expression qui signifie "aussi longtemps que" . Le bloc while entre accolades {} s’exécutera tant que sa condition d'exécution est vraie. Soit "true" .
+#Elle est construite en deux parties.
+
+i = random.randint(1, 10)
+j = random.randint(1, 10)
+                    #ci-dessus 2 variables
+
+while i != j :      #Une condition d’exécution (ci contre)
+
+#Un bloc {} d'actions programmées à réaliser en boucle.(ci dessous)
+
+  j= random.randint(1, 10)
+  print(j)
+
+#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
+
+if i == j
+  print(bravo)
+  print(j)          #voila ma condition de sorti de la boucle.
+=======
 kamel
 ###la boucle range
 
@@ -223,4 +245,5 @@ d = ("one","two","three","viva",)
 print(type(d))
 
 Les tuples sont des séquences non modifiables donc il n’est pas possible d’utiliser les méthodes remove()  ou append() par exemple, les [] sont prohibés.
+developpement
 developpement
