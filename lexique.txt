@@ -1,3 +1,5 @@
+#raise and assert exceptions
+
 il existe différentes syntaxes pour releverles exception 
 
 ## Try/except
