@@ -1,3 +1,162 @@
+fally
+## While Qu'est ce que c'est ?
+#while en anglais veut dire "tant que" en français . C'est une expression qui signifie "aussi longtemps que" . Le bloc while entre accolades {} s’exécutera tant que sa condition d'exécution est vraie. Soit "true" .
+#Elle est construite en deux parties.
+
+i = random.randint(1, 10)
+j = random.randint(1, 10)
+                    #ci-dessus 2 variables
+
+while i != j :      #Une condition d’exécution (ci contre)
+
+#Un bloc {} d'actions programmées à réaliser en boucle.(ci dessous)
+
+  j= random.randint(1, 10)
+  print(j)
+
+#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
+
+if i == j
+  print(bravo)
+  print(j)          #voila ma condition de sorti de la boucle.
+=======
+kamel
+###la boucle range
+
+n = 15
+
+for i in range (i, i+1, 1)
+if i%2 == 0
+i += 0
+print(i)
+
+
+On crée une liste qui contient plusieurs élément (1, 2, ...)
+On nomme i
+la fonction range va créer une liste et inspecter les éléments de 'liste'
+=======
+nicolas
+len()
+
+La fonction "len()", indique le nombre d'éléments que contient
+une chaine de caractère ou une liste .
+
+adep = [5, 6, 8, 4, 9, 7, 8, 1]
+print(len(adep))
+
+display "8" after print
+=======
+ abdel
+def nom_fonction(liste de paramètres):
+      bloc d'instructions
+
+Lorsqu’une tâche doit être réalisée plusieurs fois par un programme avec seulement des paramètres différents,
+on peut l’isoler au sein d’une fonction. Cette approche est également intéressante si la personne qui définit 
+la fonction est différente de celle qui l’utilise. Par exemple, nous avons déjà utilisé la fonction print() qui
+avait été définie par quelqu’un d’autre.
+
+exemple:
+
+def Age(18):
+    print(Age)
+=======
+ Emira
+#PRESENTATION DE 3 METHODES POUR MODIFIER DES CHAINES DE CARACTERES
+
+Ces méthodes s'appliquent uniquement sur des objets de type STRING soit des chaines de caractères
+et permet de les modifier.
+
+##Méthode Capitalize()
+
+Celle-ci permet de modifier une chaine de caractères en mettant la première lettre en majuscule.
+Ainsi un exemple:
+
+message= "hello world"
+print(message.capitalize())
+
+>>Hello world
+
+##Méthode Upper()
+
+Cette méthode permet de transformer une chaîne de caractères de type string en majuscules.
+
+Exemple: 
+
+message= "hello world"
+print(message.upper())
+
+>> HELLO WORLD
+
+##Méthode Lower()
+ 
+Transforme une chaîne de caractères en minuscules
+
+Exemple: 
+
+message= "hello world"
+print(message.lower())     
+
+>> hello world
+
+=======
+ mahyadine
+## Mahyadine ##
+La boucle for
+
+La boucle for permet de faire des repetitons sur un élément, comme une chaine de caractères par exemple ou une liste
+
+v = "Bonjour vous allez bien"
+for = lettre in v:
+...    print ("lettre")	
+...
+B
+o
+n
+j
+o
+u
+r
+
+v
+o
+u
+s
+
+a
+l
+l
+e
+z
+
+b
+i
+e
+n
+
+
+
+=======
+
+***sofiane,module re***
+intro:
+  # pour rechercher un mot dans une chaine de caractere 
+  la class str est limité avec deux methodes "find" et replace 
+  pour traité certain rechercher
+  # le module re nous offre des methodes bien complete pour traité ce genre 
+  de probleme
+  exemple de recherche un numero de tel valide dans une chaine:
+
+import re
+chaine = ""
+expression = r"^0[0-9]([ .-]?[0-9]{2}){4}$"
+while re.search(expression, chaine) is None:
+    chaine = input("Saisissez un numéro de téléphone (valide) :") 
+
+la methode sub pour remplacé une expression reguliére dans une chaine
+exemple:
+ re.sub(r"-", r"_", "bruno - thomas")
+affiche bruno - thomas
+
 
 #raise and assert exceptions
 
@@ -86,5 +245,5 @@ d = ("one","two","three","viva",)
 print(type(d))
 
 Les tuples sont des séquences non modifiables donc il n’est pas possible d’utiliser les méthodes remove()  ou append() par exemple, les [] sont prohibés.
- 
-
+developpement
+developpement
