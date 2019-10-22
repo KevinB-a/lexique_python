@@ -4,6 +4,14 @@
 #Une condition d’exécution () qui est le déclencheur de la boucle.
 #Un bloc {} d'actions programmées à réaliser en boucle.
 
+
 i = random.randint(1, 10)
 j = random.randint(1, 10)
 #ci-dessus 2 variables
+
+while i != j :
+  j= random.randint(1, 10)
+  print(j)
+if i == j
+  print(bravo)
+  print(j)
