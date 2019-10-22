@@ -1,0 +1,18 @@
+## Mahyadine ##
+La boucle for
+
+La boucle for permet de faire des repetitons sur un élément, comme une chaine de caractères par exemple ou une liste
+
+v = "Bonjour vous allez bien"
+for = lettre in v:
+...    print ("lettre")	
+...
+B
+o
+n
+j
+o
+u
+r
+
+
