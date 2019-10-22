@@ -12,6 +12,9 @@ j = random.randint(1, 10)
 while i != j :
   j= random.randint(1, 10)
   print(j)
+#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
+
 if i == j
   print(bravo)
   print(j)
+#voila ma condition de sorti de la boucle. 
