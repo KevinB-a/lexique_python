@@ -86,7 +86,21 @@ exemple:
 
 def Age(18):
    print(Age)
+
 =====================
+Bruno
+"{}".format()
+la méthode  format() . Tiens, c’est exactement ce que nous souhaitons faire dans notre programme de citations !
+
+Nous utilisons la méthode  format()  de la manière suivante : chaque variable que nous souhaitons utiliser est entourée d’accolades puis définie en paramètres. Exemple :
+
+"{character} a dit : {quote}".format(character="Babar", quote="Tout n'est pas cirrhose dans la vie, comme dit l'alcoolique.")
+Sachez que vous pouvez également ne pas définir de variable et vous contenter de donner les valeurs à remplacer dans le même ordre que la phrase. Exemple :
+
+"{} a dit : {}".format("Babar", "Tout n'est pas cirrhose dans la vie, comme dit l'alcoolique.")
+Cette dernière forme, plus courte, est également plus commune.
+
+======================
 Nicolas
 
 len()
@@ -141,12 +155,6 @@ On nomme i
 la fonction range va créer une liste et inspecter les éléments de 'liste'
 ================
 
-
-if i == j
-  print(bravo)
-  print(j)          #voila ma condition de sorti de la boucle.
-=======
-
 ***sofiane,module re***
 intro:
   # pour rechercher un mot dans une chaine de caractere
@@ -172,7 +180,23 @@ La fonction print() permet l'affichage de chaine de caractères, des integers, f
 exemple: print("hello world") affiche hello world  ou encore print(123) affiche 123
 La fonction int() permet de convertir une chaine de caractere en nombre si cette manipulation est possible
 exemple : print(int("123")) affiche 123 par contre print(int("abc")) est une erreur
+Thomas
 
+#FONCTION ROUND DANS PYTHON:
+============================
+La fonction ROUND,round(), dans python permet d'arrondir avec un nombre
+de décimales prédéfinies une valeur FLOAT.
+
+exemple: 
+>>>x = 1.4567
+>>> round(x)
+1.5
+
+exemple arrondi avec deux décimales:
+>>> x = 1.4567
+>>> round(x,2)
+1.46
+ 
 
 stephane
 ## try/except/finally
@@ -261,4 +285,7 @@ while i != j :      #Une condition d’exécution (ci contre)
   j= random.randint(1, 10)
   print(j)
 
-#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
+#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortieif i == j
+  print(bravo)
+  print(j)          #voila ma condition de sorti de la boucle.
+
