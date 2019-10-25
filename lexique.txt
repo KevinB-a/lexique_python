@@ -174,6 +174,23 @@ La fonction print() permet l'affichage de chaine de caractères, des integers, f
 exemple: print("hello world") affiche hello world  ou encore print(123) affiche 123
 La fonction int() permet de convertir une chaine de caractere en nombre si cette manipulation est possible
 exemple : print(int("123")) affiche 123 par contre print(int("abc")) est une erreur
+Thomas
+
+#FONCTION ROUND DANS PYTHON:
+============================
+La fonction ROUND,round(), dans python permet d'arrondir avec un nombre
+de décimales prédéfinies une valeur FLOAT.
+
+exemple: 
+>>>x = 1.4567
+>>> round(x)
+1.5
+
+exemple arrondi avec deux décimales:
+>>> x = 1.4567
+>>> round(x,2)
+1.46
+ 
 
 stephane
 ## try/except/finally
