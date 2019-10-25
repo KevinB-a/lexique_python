@@ -167,7 +167,6 @@ exemple: print("hello world") affiche hello world  ou encore print(123) affiche 
 La fonction int() permet de convertir une chaine de caractere en nombre si cette manipulation est possible
 exemple : print(int("123")) affiche 123 par contre print(int("abc")) est une erreur
 
-
 stephane
 ## try/except/finally
 
