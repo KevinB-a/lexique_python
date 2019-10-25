@@ -84,7 +84,21 @@ exemple:
 
 def Age(18):
    print(Age)
+
 =====================
+Bruno
+"{}".format()
+la méthode  format() . Tiens, c’est exactement ce que nous souhaitons faire dans notre programme de citations !
+
+Nous utilisons la méthode  format()  de la manière suivante : chaque variable que nous souhaitons utiliser est entourée d’accolades puis définie en paramètres. Exemple :
+
+"{character} a dit : {quote}".format(character="Babar", quote="Tout n'est pas cirrhose dans la vie, comme dit l'alcoolique.")
+Sachez que vous pouvez également ne pas définir de variable et vous contenter de donner les valeurs à remplacer dans le même ordre que la phrase. Exemple :
+
+"{} a dit : {}".format("Babar", "Tout n'est pas cirrhose dans la vie, comme dit l'alcoolique.")
+Cette dernière forme, plus courte, est également plus commune.
+
+======================
 Nicolas
 len()
 
