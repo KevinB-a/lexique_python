@@ -1,3 +1,4 @@
+Thomas
 #FONCTION ROUND DANS PYTHON:
 ============================
 La fonction ROUND,round(), dans python permet d'arrondir avec un nombre
