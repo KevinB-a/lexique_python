@@ -149,12 +149,6 @@ On nomme i
 la fonction range va créer une liste et inspecter les éléments de 'liste'
 ================
 
-
-if i == j
-  print(bravo)
-  print(j)          #voila ma condition de sorti de la boucle.
-=======
-
 ***sofiane,module re***
 intro:
   # pour rechercher un mot dans une chaine de caractere
@@ -265,4 +259,7 @@ while i != j :      #Une condition d’exécution (ci contre)
   j= random.randint(1, 10)
   print(j)
 
-#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortie
+#si je m'arretais ici la boucle serait infinie,car il n'y a pas de condition de sortieif i == j
+  print(bravo)
+  print(j)          #voila ma condition de sorti de la boucle.
+
